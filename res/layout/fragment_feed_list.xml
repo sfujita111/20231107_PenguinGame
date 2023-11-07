@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="#0B0B0B">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/feed_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#103188"
+            android:text="エサ"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D0F1FB"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <FrameLayout
+                    android:id="@+id/feed_item1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_marginBottom="7.5dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF">
+                </FrameLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/feed_item1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:layout_marginRight="7.5dp"-->
+<!--                    android:layout_marginBottom="7.5dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="#FFFFFF"-->
+<!--                    app:srcCompat="@drawable/niku" />-->
+
+                <FrameLayout
+                    android:id="@+id/feed_item2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="7.5dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF">
+                </FrameLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/feed_item2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="7.5dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:layout_marginRight="15dp"-->
+<!--                    android:layout_marginBottom="7.5dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="#FFFFFF"-->
+<!--                    app:srcCompat="@drawable/sakana" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/feed_item3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7.5dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1"
+                    android:background="#FFFFFF">
+                </FrameLayout>
+<!--                <ImageView-->
+<!--                    android:id="@+id/ifeed_item3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:layout_marginTop="7.5dp"-->
+<!--                    android:layout_marginRight="7.5dp"-->
+<!--                    android:layout_marginBottom="15dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="#FFFFFF"-->
+<!--                    app:srcCompat="@drawable/niku" />-->
+
+<!--                <fragment-->
+<!--                    android:id="@+id/feed_item4"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="7.5dp"-->
+<!--                    android:layout_marginTop="7.5dp"-->
+<!--                    android:layout_marginRight="15dp"-->
+<!--                    android:layout_marginBottom="15dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="#FFFFFF"/>-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/feed_item4"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginLeft="7.5dp"-->
+<!--                    android:layout_marginTop="7.5dp"-->
+<!--                    android:layout_marginRight="15dp"-->
+<!--                    android:layout_marginBottom="15dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="#F1EDED"-->
+<!--                    app:srcCompat="@drawable/sakana" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D0F1FB">
+
+            <ImageView
+                android:id="@+id/feed_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="15dp"
+                app:srcCompat="@drawable/icon_close" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

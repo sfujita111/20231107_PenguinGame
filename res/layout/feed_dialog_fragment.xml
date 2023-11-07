@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.5dp"
+            android:gravity="center_horizontal"
+            android:text="タイトル"
+            android:textColor="#666666"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.5dp"
+            android:gravity="center_horizontal"
+            android:text="内容1"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.5dp"
+            android:gravity="center_horizontal"
+            android:text="内容2"
+            android:textColor="#333333"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/purple_200"
+        android:text="取消" />
+</LinearLayout>
